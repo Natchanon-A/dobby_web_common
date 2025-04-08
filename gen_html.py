@@ -53,7 +53,7 @@ def generate_index_html(base_path, output_path):
                     <td>{version}</td>
                     <td>{selenium_version}</td>
                     <td>{release_date}</td>
-                    <td onclick="location.href='keywords/{version}/keyword.html'">Keyword</td>
+                    <td onclick="location.href='versions/{version}/keyword.html'">link</td>
                 </tr>
                 """
     
