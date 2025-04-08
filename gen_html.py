@@ -71,7 +71,7 @@ def generate_index_html(base_path, output_path):
     print(f"Index HTML generated at {output_path}")
 
 # Specify the base path for versions and the path where the index will be saved
-base_path = './keywords'  # This is the root folder containing version directories
+base_path = './versions'  # This is the root folder containing version directories
 output_path = 'index.html'  # Output file for the index page
 
 generate_index_html(base_path, output_path)
